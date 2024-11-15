@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    background-color: whitesmoke;
+}
+.calculator{
+    background-color: #fff4d5;
+    margin: 20px auto;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 6px 6px #1a0a00f8;
+    border-radius: 5px;
+    max-width: 10%;
+    min-width: 320px;
+    padding: 7px;
+}
+.headerCalculator{
+    background-color: grey;
+    margin-top: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top:20px;
+}
+h1{
+    margin: 20px auto;
+    color: #1a0a00f8;
+    text-align: center;
+}
+.calculator .headerCalculator .monitor{
+    background-color: whitesmoke;
+    max-width: 25%;
+    min-width: 260px;
+    margin: 0px auto 0px;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+.calculator .triangle {
+    width: 0px;
+    height: 0px;
+    margin: 0px auto;
+    border-left: solid transparent 130px;
+    border-right: solid transparent 130px;
+}
+.calculator .triangle2{
+  border-top: solid 10px grey;
+  position: relative;
+  z-index: 10;
+}
+.calculator .headerCalculator .triangle1{
+   border-top: solid 10px whitesmoke;  
+   position: relative;
+   z-index: 10; 
+}
+.calculator .headerCalculator .monitor .monitorIntro{
+    background-color: gainsboro;
+    min-width: 240px;
+    max-width: 21%;
+    margin: 5px auto 0px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.calculator .headerCalculator h6{
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+.calculator .headerCalculator .middle{
+    height: 10px;
+    background-color: grey;
+    min-width: 260px;
+    max-width: 25%;
+    margin: -10px auto 0px;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+    z-index: 10;
+}
+.calculator .headerCalculator .monitor .monitorIntro{
+    text-align: right;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.calculator .buttonsCalculator .row1, .calculator .buttonsCalculator .row2, .calculator .buttonsCalculator .row3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px auto;
+    align-items: center;
+    
+}
+.light{
+    min-width: 50px;
+    max-width: 20%;
+    height: 20px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: lightseagreen;
+}
+.go{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.group1 .small{
+    margin: 8px 2px;
+}
+.group1, .group2, .group3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.big{
+    min-width: 45px;
+    max-width: 15%;
+    height: 35px;
+    
+}
+.big, .small, .bigV{
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 4px #1a0a00f8;
+    margin:8px 5px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
+.calculator .buttonsCalculator .row3 .group3 .small{
+    min-width: 40px;
+}
+.small{
+    min-width: 34px;
+    height: 35px;
+}
+.bigV{
+    min-width: 40px;
+    min-height: 35px;
+}
+.group3 .big{
+    min-width: 70px;
+}
+.lightOn{
+    background-color: red;
+}
